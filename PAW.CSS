@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#a
+{
+    transform: rotate(190deg);
+    position: absolute;
+    right: 20px;
+}
+#b
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 60px;
+    right: 80px;
+}
+#c
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 140px;
+    right: 30px;
+}
+#d
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 200px;
+    right: 90px;
+}
+#e
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 260px;
+    right: 40px;
+}
+#f
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 340px;
+    right: 80px;
+}
+#g
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 440px;
+    right: 40px;
+}
+#h
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 460px;
+    right: 120px;
+}
+#i
+{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 560px;
+    right: 80px;
+}
+#j
+{
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left:50%;
+    position: absolute;
+    scale:5;
+}
+#paw 
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

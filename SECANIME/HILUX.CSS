@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    height: 550px;
+    width: 920px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-size: cover;
+    background-color: white;
+    /* background-image: url(fda42f66fca6afafa9b205d5621d0ce1.jpg); */
+}
+#logo h1
+{
+    position: absolute;
+    font-family: cursive;
+    letter-spacing: 2px;
+    transform: skew(-10deg);
+    top: 30px;
+    left: 30px;
+}
+#links
+{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+#links ul li
+{
+    margin-top: 20px;
+    list-style: none;
+}
+#links ul li a 
+{
+    color: rgb(0, 0, 0,0.8);
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#join
+{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+#join  h2
+{
+    color: rgb(0, 0, 0,0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+#join h2 i
+{
+    padding: 15px;
+    background-color: rgb(0, 0, 0,0.8);
+    color: white;
+    border-radius: 50%;
+}
+#name h1
+{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0,0.8);
+    bottom: 30px;
+    left: 30px;
+}
+#view h2
+{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 20;
+    right: 30px;
+    bottom: 30px;
+}
+#view h2 i
+{
+    border: 1px solid #d2d3d7;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: #d2d3d7;
+}
+#color
+{
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    border: 1px solid #d2d3d7;
+    border-radius: 50%;
+    background-color: #d2d3d7;
+}
+#image img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#top
+{
+    height: 100%;
+    width: 100px;
+    border: 1px solid yellow;
+    position: absolute;
+    left: 300px;
+    background-color: yellow;
+
+}

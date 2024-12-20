@@ -1,0 +1,16 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#rect
+{
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+    border: 1px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

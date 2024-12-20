@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#main
+{
+    height: 600px;
+    width: 900px;
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+#main #ek
+{
+    height: 100%;
+    width: 20%;
+    border-radius: 30%;
+}
+#ek img
+{
+    filter:drop-shadow(0 0 40px black);
+}
+.a img
+{
+    position: absolute;
+    left: 0;
+    top: 67%;
+}
+.b  img
+{
+    position: absolute;
+    top: 0%;
+    transform: rotate(180deg);
+}
+.c  img
+{
+    position: absolute;
+    top: 67%
+}
+.d  img
+{
+    position: absolute;
+    top: 0%;
+    transform: rotate(180deg);
+}
+.e  img
+{
+    position: absolute;
+    top: 67%
+}

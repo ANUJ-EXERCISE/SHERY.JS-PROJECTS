@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #89621f;
+}
+
+#main {
+    height: 550px;
+    width: 920px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-size: cover;
+    background-color: #5c6c66;
+}
+
+#logo h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #89621f;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#links 
+{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+#links ul li
+{
+    display: inline;
+}
+#links ul li  a 
+{
+    color: #3729a3;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 60px;
+    font-weight: 200;
+}
+#right
+{
+    position: absolute;
+    color: #3729a3;
+    right: 20px;
+    top: 20px;
+}
+#right i
+{
+    margin-left: 30px;
+    font-size: 20px;
+}
+#right #bars
+{
+    transform: rotate(90deg);
+}
+#play
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#play h3
+{
+    display: inline;
+    color: #3729a3;
+}
+#play i
+{
+    color: #3729a3;
+    font-size: 20px;
+    height: 30px;
+    width: 25px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #3729a3;
+    border-radius: 50%;
+}
+#shop
+{
+    position: absolute;
+    bottom: 20px;
+    left: 230px;
+}
+#shop h3
+{
+    display: inline;
+    color: #3729a3;
+}
+#shop i
+{
+    color: #3729a3;
+    font-size: 20px;
+    height: 30px;
+    width: 25px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #3729a3;
+    border-radius: 50%;
+}
+#social i
+{
+    color: #3729a3;
+    margin-left: 40px;
+
+}
+#social
+{
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
+#img img
+{
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+#nera h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #89621f;
+    font-size: 100px;
+    font-weight: 200;
+    letter-spacing: 50px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
