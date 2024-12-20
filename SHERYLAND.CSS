@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+}
+#bottom
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#bottom:hover img
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#bottom:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+#bottom:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#bottom img
+{
+    height: 100%;
+    background-position: center;
+    width: 100%;
+    object-fit: cover;
+}
+#top {
+    position: absolute;
+    height: 100vh;
+    width: 90%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    pointer-events:none;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nleft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nleft img {
+    width: 100px;
+    padding: 20px 20px;
+}
+
+#nleft h3 {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#nright {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nright h3 {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#hleft {
+    width: 50%;
+}
+
+#hright {
+    width: 20%;
+}
+
+#hleft #elem {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+#elem h1:nth-child(1)
+{
+    top: 0;
+}
+#elem h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1;
+    position: absolute;
+    top: 100%;
+}
+
+button
+{
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    pointer-events: all;
+    color: black;
+}
+
+#hright
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#hright p
+{
+    font-size: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#imagediv
+{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+#imagediv{
+  background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+  background-position: center;
+}
+#hright p:nth-child(3)
+{
+    margin-bottom: 60px;
+}
